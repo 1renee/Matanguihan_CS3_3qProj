@@ -1,0 +1,131 @@
+html {
+    background-image: url("images/background.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  body{
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid white;
+    border-radius: 14px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 300px;
+  }
+  h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+  }
+  h2 {
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .column-left {
+    float: left;
+    width: 60%;
+    padding: 20px;
+    overflow: hidden;
+  }
+  
+  .column-right {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+  }
+  button {
+    margin: 10px auto;
+    padding: 12px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(128,0,128);
+    color: white;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: rgb(92, 5, 92);
+  }
+  .button-login {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .button-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .textbox-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .textbox-wrapper input {
+    margin: 10px auto;
+    padding: 12px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f2f2f2;
+    color: black;
+  }
+
+  .confirm-button {
+    margin: 10px auto;
+    padding: 12px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(128,0,128);
+    color: white;
+    cursor: pointer;
+  }
+
+  .confirm-button:hover {
+    background-color: rgb(92, 5, 92);
+  }
+  #forgot-password button {
+    font-size: 14px;
+    background: none;
+    border: none;
+    color: black;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  footer{
+    background-color: #c1c1c1;
+    border: 1px solid white;
+    border-radius: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 150px;
+    text-align: center;
+  }
+  .fb {
+	background: url('images/sprites_1728x767_346x153.jpeg') no-repeat -312px -120px;
+	width: 32px;
+	height: 32px;
+}
+.ig {
+	background: url('images/sprites_1728x767_346x153.jpeg') no-repeat -237px -4px;
+	width: 29px;
+	height: 30px;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid white;
+    text-align: center;
+  }

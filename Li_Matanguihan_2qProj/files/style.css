@@ -1,0 +1,88 @@
+
+.active {
+  background-color: #4c2aa2;
+  color: #F5f9f9;
+}
+.left{
+	float: left;
+	color: #171818;
+	padding-left: 153px;
+}
+#icon {
+	background: url('../images/icon.png') no-repeat -4px -4px;
+	width: 143px;
+	height: 102px;
+}
+.fb{
+background: url('imgs/socicon.jpg') no-repeat -312px -464px;
+	width: 96px;
+	height: 88px;
+}
+.footertext{
+	color: white;
+}
+.footertext:visited{
+	color: #C7cbcb;
+}
+.footertext:hover{
+	color: white;
+}
+hr{
+	background: url('../images/hr.png');
+	width: 100%;
+}
+body{
+	color: #171818;
+	height: 1000px;
+}
+footer{
+	list-style-type: none;
+	text-align: center;
+	top: 1000px;
+  height: 100px;
+  background-color: #171818;
+  width: 100%;
+  position: absolute;
+}
+a{
+	text-decoration: none;
+	font-style: italic;
+	color: #171818;
+}
+a:active{
+	color: #4c2aa2;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 143px;
+  background-color: #171818;
+  height: 100%;
+  position: fixed;
+  overflow: auto; 
+
+}
+li{
+	text-align: center;
+	font-style: italic;
+}
+li a{
+	display: block;
+	padding: 8px 16px;
+	text-decoration: none;
+}
+.nav:link{
+	color: white;
+}
+.nav:visited{
+	color: #C7cbcb;
+}
+.nav:hover{
+	background-color: #555;
+	color: white;
+}
+.nav:active{
+	background-color: #4c2aa2;
+	color: white;
+}
